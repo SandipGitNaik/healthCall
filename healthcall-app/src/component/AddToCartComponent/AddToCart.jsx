@@ -74,17 +74,17 @@ export default class AddToCart extends Component{
                    <form action="">
                  <p>slect the payment mode</p>
                  <input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="Credit" style={{fontSize:'20px'}}>Credit</label><br />
+                     <label for="Credit" style={{fontSize:'20px'}}>Credit</label>
                         <input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="Debit" style={{fontSize:'20px'}}>Debit</label><br />
-<input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="G Pay" style={{fontSize:'20px'}}>G Pay</label><br />
+                     <label for="Debit" style={{fontSize:'20px'}}>Debit</label>
+                     <input type="radio" id="html" name="fav_language" value="HTML"/>
+                     <label for="G Pay" style={{fontSize:'20px'}}>G Pay</label>
                         <input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="Phone pay" style={{fontSize:'20px'}}>Phone pay</label><br />
+                     <label for="Phone pay" style={{fontSize:'20px'}}>Phone pay</label>
                       <input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="Paytem" style={{fontSize:'20px'}}>Paytem</label><br />   
+                     <label for="Paytem" style={{fontSize:'20px'}}>Paytem</label>  
                     <input type="radio" id="html" name="fav_language" value="HTML"/>
-                     <label for="Cash" style={{fontSize:'20px'}}>Cash</label><br />
+                     <label for="Cash" style={{fontSize:'20px'}}>Cash</label>
                      <button type="button" class="btn btn-success" style={{width:"150px"}}>Book</button>
                     </form>                            
            </div>

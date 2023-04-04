@@ -7,6 +7,7 @@ import Profile from './component/profileComponent/profileComponent';
 import Register from './component/Register/Register';
 import Menu from './component/MenuComponent/Menu';
 import MenuComponents from './component/MenuComponent/Menu';
+import FooterComponent from './component/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,10 @@ function App() {
         <Route path="/cart" element={<AddToCart></AddToCart>}></Route>
         </Routes>
         </BrowserRouter>
-   
+   <footer>
+   <FooterComponent> </FooterComponent>
+
+   </footer>
     </div>
   );
 }

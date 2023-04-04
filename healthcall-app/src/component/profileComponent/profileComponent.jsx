@@ -44,7 +44,7 @@ if(result.status==200){
   render(){
     return(
       <div class="container" style={{backgroundColor: "#e8e7e3"}}>
-        <button onClick={this.getuserList}>get User</button>
+        
         
     {
 this.state.userList.map(
@@ -64,7 +64,7 @@ this.state.userList.map(
 
       <div class="row">
         <div class="col-sm">
-          <div className="card" style={{backgroundColor:"lightgray",textAlign: "center"}}></div>
+          
           <img style={{borderRadius: 500,backgroundColor:"lightgray"}} src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" />
           <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">

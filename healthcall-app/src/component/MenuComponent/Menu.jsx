@@ -25,7 +25,7 @@ class MenuComponents extends Component{
         <a className="nav-link " href="re">Login</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link disabled" href="#">Services</a>
+        <a className="nav-link " href="/cart">Services</a>
       </li>
     </ul>
   </div>
