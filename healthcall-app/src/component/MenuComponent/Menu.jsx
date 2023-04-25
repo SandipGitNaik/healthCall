@@ -22,10 +22,10 @@ class MenuComponents extends Component{
         <a className="nav-link" href="/profile">Profile</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link " href="re">Login</a>
+        <a className="nav-link " href="/login">Login</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link " href="/cart">Services</a>
+        <a className="nav-link " href="">Services</a>
       </li>
     </ul>
   </div>
